@@ -1,0 +1,47 @@
+.yellowbar{
+    background-color: #fdd306;
+    min-height: 6px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+   
+}
+.logginC{
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #716f6f !important;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 5px;
+    height: 35px;
+    width: 160px;
+}
+.logginC:hover {
+    background-color: #716f6f;
+    color: #fdd306;
+}
+/* .loggin{
+ 
+    border-radius: 4px;
+    margin-right: 0%;
+    padding: 5px;
+    height: 35px;
+    width: 160px;
+    overflow: visible;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #716f6f;
+    color: #716f6f;
+    letter-spacing: -0.3px;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+} */  
+@media (max-width: 992px) {
+    .loggin{
+        margin-right: 8%;
+    }
+}
